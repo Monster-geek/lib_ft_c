@@ -1,0 +1,8 @@
+# Text File
+# AUTHOR:   pi
+# FILE:     .travis.yml
+# CREATED:  2015-09-22 21:31:01
+
+language:	c
+compiler:	gcc
+script:		gcc -Wall -Werror -Wextra -I includes -o bin_test *.c
