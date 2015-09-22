@@ -7,6 +7,6 @@
 # define LIBFT_H
 # include <unistd.h>
 
-void ft_putchar(char* c);
+void ft_putchar(char c);
 
 #endif
